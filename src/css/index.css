@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-color: #FFCF00;
+}
+
+@font-face {
+  font-family: 'digital7';
+  src: url('../fonts/digital7/Digital7-rg1mL.ttf');
+}

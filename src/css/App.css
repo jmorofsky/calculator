@@ -1,0 +1,140 @@
+.topBase {
+  background-color: #00AEED;
+  height: 200px;
+  width: 605px;
+  border-radius: 40px 40px 0 0;
+  margin: 100px auto 0;
+  font-family: digital7;
+  font-size: 75px;
+  color: #201F24;
+}
+
+.bottomBase {
+  background-color: #fff;
+  height: 530px;
+  width: 605px;
+  border-radius: 0 0 40px 40px;
+  margin: auto;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 40px;
+  gap: 25px 0;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+  gap: 28.3px;
+}
+
+.outerContainer {
+  background-color: #404040;
+  border-radius: 15px;
+  margin: 0 30px;
+  position: relative;
+  top: 40px;
+  height: 125px;
+}
+
+.innerContainer {
+  background-color: #CFCFCF;
+  border-radius: 10px;
+  margin: 0 30px;
+  position: relative;
+  top: 15px;
+  height: 85px;
+  padding: 10px 0 0 30px;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.textShadow {
+  display: inline;
+  position: absolute;
+  right: 29.55px;
+  bottom: -66.4px;
+  color: #ABAAAF;
+  z-index: -1;
+}
+
+.on {
+  background-color: #FF4C57;
+  border: none;
+  color: #FFF;
+  font-family: Quicksand;
+  font-size: 50px;
+  border-radius: 17px;
+  width: 110px;
+  height: 70px;
+  line-height: 0px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.on:active {
+  border: 5px solid #5B5B5B;
+}
+
+.clear {
+  background-color: #5B5B5B;
+  border: none;
+  color: #FFF;
+  font-family: Quicksand;
+  font-size: 50px;
+  border-radius: 17px;
+  width: 110px;
+  height: 70px;
+  line-height: 0px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.clear:active {
+  border: 5px solid #000;
+}
+
+.plus {
+  background-color: #00AEED;
+  border: none;
+  color: #FFF;
+  font-family: Quicksand;
+  font-size: 50px;
+  border-radius: 17px;
+  width: 110px;
+  height: 165px;
+  line-height: 0px;
+  text-align: center;
+  padding-bottom: 5px;
+  align-self: flex-end;
+}
+
+.plus:active {
+  border: 5px solid #5B5B5B;
+}
+
+.button {
+  background-color: #DADADA;
+  border: none;
+  color: #6A696F;
+  font-family: Quicksand;
+  font-size: 50px;
+  border-radius: 17px;
+  width: 110px;
+  height: 70px;
+  line-height: 0px;
+  text-align: center;
+  padding-bottom: 5px;
+  align-self: flex-start;
+}
+
+.button:active {
+  border: 5px solid #5B5B5B;
+}
