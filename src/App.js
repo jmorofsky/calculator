@@ -68,6 +68,9 @@ class App extends React.Component {
       String(decimalNum)
       decimalNum += "."
       this.setState({ val2: decimalNum, decimal: true })
+    } else {
+      decimalNum = "0."
+      this.setState({ val2: decimalNum, decimal: true })
     }
   }
 
